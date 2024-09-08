@@ -22,7 +22,7 @@ export default function HomeScreen({ navigation }) {
           keyboardType="numeric"
           value={Km}
           style={styles.input}
-          onChangeText={setKm} // Corrigido de 'onChange' para 'onChangeText'
+          onChangeText={setKm} 
         />
   
         <Text style={styles.label}>Quantidade de combustível (L):</Text>
@@ -30,7 +30,7 @@ export default function HomeScreen({ navigation }) {
           keyboardType="numeric"
           value={litros}
           style={styles.input}
-          onChangeText={setLitros} // Corrigido de 'onChange' para 'onChangeText'
+          onChangeText={setLitros} 
         />
         <Button title="Calcular" onPress={calculaConsumoMedio} />
       </View>
